@@ -24,7 +24,7 @@ public class CarController {
             new Car("Nissan", "Juke", 1322)));
 
     @GetMapping
-    public String showCars(@RequestParam(value = "count", required = false) Integer carCount
+    public String getCars(@RequestParam(value = "count", required = false) Integer carCount
             , ModelMap model) {
 
         if (carCount != null) {

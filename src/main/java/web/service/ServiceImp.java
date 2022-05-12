@@ -4,7 +4,7 @@ import web.model.Car;
 
 import java.util.List;
 
-public class ServiceImp implements web.service.Service {
+public class ServiceImp implements Service {
 
     @Override
     public List<Car> getCars(List<Car> list, Integer count) {
